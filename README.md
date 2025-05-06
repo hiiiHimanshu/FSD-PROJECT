@@ -58,9 +58,7 @@ npm run install-all
    Create `.env` file in the root directory:
 
 ```
-MONGODB_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
-PORT=5000
+mongodb+srv://<myuser>:<mypassword>@cluster0.4zztrec.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 ```
 
 4. Run the application
